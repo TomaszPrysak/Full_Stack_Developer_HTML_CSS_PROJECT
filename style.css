@@ -1,0 +1,51 @@
+
+/*Standard pliku CSS starałem się utrzymać zgodnie z metodyką BEM.
+Więcej o tej specyfice można przeczytac na stronie:
+https://www.nafrontendzie.pl/metodyki-css-2-bem*/
+
+.box{
+  background-color: rgb(111, 217, 207);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.box__background{
+  margin: auto;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+  max-width: 90%;
+  background-color: rgb(3, 34, 43);
+}
+
+.box__content{
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.content__header2, .content__text{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.form__label{
+  display: block; /*umieszczenie etykiety nad polem formularza*/
+}
+
+.form__text, .form__email{
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  font-size: 1.25em;
+}
+
+.form__submit{
+  background-color: orange;
+  padding: 25px;
+  border-radius: 25px;
+  font-size: 1.25em;
+  margin: 5px;
+}

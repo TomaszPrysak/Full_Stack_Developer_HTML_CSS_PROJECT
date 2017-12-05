@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Loading Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+
+  <!-- nazwy klas poszczególnych znaczników/elementów zachowane według metodyki BEM dla plików CSS -->
+
+  <body class="box">
+
+    <div class="box__background">
+
+      <div class="box__content">
+
+        <h1 class="content__header1">Welcome to the Loading Page</h1>
+
+        <h2 class="content__header2">We're a start-up that does something</h2>
+
+        <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h2 class="content__header2">Sign up for our upcoming launch!</h2>
+
+        <form class="form" action="thankyou.html" method="post">
+          <label class="form__label" for="fnameid">First Name:</label>
+          <input class="form__text" id="fnameid" type="text" name="fname" required>
+          <br>
+          <label class="form__label" for="lnameid">Last Name:</label>
+          <input class="form__text" id="lnameid" type="text" name="lname" required>
+          <br>
+          <label class="form__label" for="mailid">E-mail:</label>
+          <input class="form__email" id="mailid" type="email" name="mail" required>
+          <br>
+          <input class="form__submit" type="submit" name="submit" value="Sign me up!">
+        </form>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
